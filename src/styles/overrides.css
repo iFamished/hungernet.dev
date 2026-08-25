@@ -471,6 +471,5 @@
   color: var(--accent-1);
   opacity: 0.9;
 
-  position: relative;
-  top: -20px;
+  line-height: 1.2; /* <-- THIS is the fix */
 }
