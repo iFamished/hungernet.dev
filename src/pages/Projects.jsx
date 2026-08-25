@@ -91,7 +91,7 @@ export default function Projects() {
               <div className="project-header">
                 <h3 className="project-title">{p.name}</h3>
                 {p.owner && (
-                  <span className="project-owner gradient-font">
+                  <span className="project-owner">
                     {p.owner.toUpperCase()}
                   </span>
                 )}
