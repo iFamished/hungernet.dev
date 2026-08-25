@@ -458,24 +458,16 @@
   pointer-events: none;
 }
 
-.project-owner {
-  font-size: 0.75rem;
-  font-family: "JetBrains Mono", "Fira Code", monospace;
-  letter-spacing: 0.05em;
-  opacity: 0.9;
-
-  /* REQUIRED for gradient text to be visible */
-  background: var(--gradient-font);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  /* Optional: prevent clipping issues */
-  display: inline-block;
-}
-
 .project-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.project-owner {
+  font-size: 0.75rem;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  letter-spacing: 0.06em;
+  color: #4aa3ff; /* clean bright blue */
+  opacity: 0.9;
 }
