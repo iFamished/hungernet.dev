@@ -476,7 +476,7 @@
 }
 
 .project-status {
-  display: inline-flex;
+  display: inline-flex;        /* <-- makes it fit the text */
   align-items: center;
   gap: 8px;
   font-size: 0.75rem;
