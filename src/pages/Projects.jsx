@@ -72,6 +72,35 @@ const projects = [
     website: "https://hungersmp.com/",
     modrinth: "https://modrinth.com/server/the-hunger-smp",
   },
+  {
+    name: "MysticRoot SMP",
+    description:
+      "An Origins Minecraft server based on a friendly community. Powered by HungerNet infrastructure.",
+    stack: ["SMP", "Origins Mod", "Performance"],
+    features: [
+      "Friendly community",
+      "Origins mod",
+      "Backed by HungerNet",
+    ],
+    owner: "Mystical_Tree_",
+    status: "NEW",
+    website: "https://mysticaltree.net/mysticroot-smp/",
+  },
+  {
+    name: "C2E",
+    description:
+      "Console Command Engine: A powerful Python library for console-based commands.",
+    stack: ["Python", "Library", "Utility"],
+    features: [
+      "Built for readability",
+      "Works on Pterodactyl panels",
+      "Lightweight and easy to integrate",
+    ],
+    owner: "iFamished",
+    status: "NEW",
+    github: "https://github.com/iFamishedX/C2E",
+    pypi: "https://pypi.org/project/C2E/",
+  },
 ]
 
 export default function Projects() {
@@ -81,13 +110,21 @@ export default function Projects() {
     <div className="page">
       <div className="page-header fade-in-up">
         <h1>Projects</h1>
-        <p>Tools, mods, and infrastructure.</p>
+        <p>Servers, tools, mods, and infrastructure.</p>
       </div>
 
       <section className="section">
         <div className="projects-grid stagger">
           {projects.map((p, i) => (
             <GlassCard key={p.name} className="project-card" style={{ "--i": i }}>
+
+              {p.status && (
+                <div className="project-status">
+                  <span className="project-status-dot" />
+                  {p.status}
+                </div>
+              )}
+
               <div className="project-header">
                 <h3 className="project-title">{p.name}</h3>
                 {p.owner && (
