@@ -473,3 +473,9 @@
   /* Optional: prevent clipping issues */
   display: inline-block;
 }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
