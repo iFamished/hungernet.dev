@@ -471,7 +471,6 @@
   color: var(--accent-1);
   opacity: 0.9;
 
-  line-height: 1;          /* match the h3 baseline model */
-  display: inline-flex;    /* force consistent baseline behavior */
-  align-items: flex-end;   /* align text inside the owner box */
+  position: relative;
+  top: -10px;
 }
