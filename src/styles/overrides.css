@@ -467,6 +467,7 @@
   /* REQUIRED for gradient text to be visible */
   background: var(--gradient-font);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 
   /* Optional: prevent clipping issues */
