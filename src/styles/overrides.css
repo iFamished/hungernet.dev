@@ -468,6 +468,6 @@
   font-size: 0.75rem;
   font-family: "JetBrains Mono", "Fira Code", monospace;
   letter-spacing: 0.06em;
-  color: var(--gradient-text);
+  color: var(--gradient-text-minimal);
   opacity: 0.9;
 }
