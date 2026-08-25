@@ -461,13 +461,7 @@
 .project-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.project-card .project-title {
-  margin: 0;
-  padding: 0;
-  line-height: 1.2;
+  align-items: flex-end;
 }
 
 .project-owner {
