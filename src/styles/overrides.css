@@ -470,4 +470,7 @@
   letter-spacing: 0.06em;
   color: var(--accent-1);
   opacity: 0.9;
+
+  position: relative;
+  top: 2px;
 }
