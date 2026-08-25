@@ -476,7 +476,10 @@
 }
 
 .project-status {
-  display: inline-flex;        /* <-- makes it fit the text */
+  display: inline-flex;
+  width: auto;
+  max-width: max-content;
+
   align-items: center;
   gap: 8px;
   font-size: 0.75rem;
