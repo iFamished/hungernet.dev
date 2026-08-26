@@ -12,7 +12,7 @@ const projects = [
       "Ideal for dashboards and remote control",
     ],
     owner: "iFamished",
-    github: "https://github.com/iFamishedX/HungerBridge",
+    github: "https://github.com/iFamished/HungerBridge",
     modrinth: "https://modrinth.com/project/hungerbridge",
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       "Lightweight and easy to integrate",
     ],
     owner: "iFamished",
-    github: "https://github.com/iFamishedX/HungerLib",
+    github: "https://github.com/iFamished/HungerLib",
     pypi: "https://pypi.org/project/hungerlib/",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
       "Supports large datamaps and complex mapping scenarios",
     ],
     owner: "iFamished",
-    github: "https://github.com/iFamishedX/mapres",
+    github: "https://github.com/iFamished/mapres",
     pypi: "https://pypi.org/project/mapres/",
   },
   {
@@ -55,7 +55,7 @@ const projects = [
       "Shader support",
     ],
     owner: "iFamished",
-    github: "https://github.com/iFamishedX/optifine-for-fabric",
+    github: "https://github.com/iFamished/optifine-for-fabric",
     modrinth: "https://modrinth.com/project/optifine-for-fabric",
   },
   {
@@ -98,7 +98,7 @@ const projects = [
     ],
     owner: "iFamished",
     status: "NEW",
-    github: "https://github.com/iFamishedX/C2E",
+    github: "https://github.com/iFamished/C2E",
     pypi: "https://pypi.org/project/C2E/",
   },
 ]
