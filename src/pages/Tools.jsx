@@ -27,42 +27,6 @@ const tools = [
     ],
     link: "/tools/email",
   },
-  {
-    name: "DNS Utilities",
-    description:
-      "A collection of DNS helpers including domain parsing, hostname validation, and lookup tools. Useful for debugging Minecraft servers and web infrastructure.",
-    stack: ["DNS", "Utilities"],
-    features: [
-      "Domain parsing",
-      "Hostname validation",
-      "Lookup helpers",
-    ],
-    link: "/tools/dns",
-  },
-  {
-    name: "SRV Debugger",
-    description:
-      "Test your SRV record using dig, DNSChecker, and MCSRVStat. Provides instant feedback and troubleshooting tips for common misconfigurations.",
-    stack: ["DNS", "Minecraft"],
-    features: [
-      "dig command output",
-      "DNSChecker integration",
-      "MCSRVStat testing",
-    ],
-    link: "/tools/srv-debug",
-  },
-  {
-    name: "Security Tools",
-    description:
-      "Check DMARC, SPF, DKIM, and general email security posture. Helps ensure your domain is properly authenticated and protected.",
-    stack: ["Email", "Security"],
-    features: [
-      "DMARC inspection",
-      "SPF validation",
-      "DKIM checks",
-    ],
-    link: "/tools/security",
-  },
 ]
 
 export default function Tools() {
