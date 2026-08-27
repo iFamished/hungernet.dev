@@ -17,12 +17,12 @@ const tools = [
   {
     name: "Email Setup Guide",
     description:
-      "Create a personalized Cloudflare or HungerNet email setup guide. Includes SMTP configuration, Gmail integration, forwarding setup, and API token validation.",
+      "Create a personalized Cloudflare or HungerNet email setup guide. Includes SMTP configuration, Gmail integration, and forwarding setup",
     stack: ["Email", "Cloudflare", "SMTP"],
     features: [
       "Gmail send‑mail‑as setup",
       "Cloudflare routing instructions",
-      "API token validation",
+      "Field validation",
       "Masked password display",
     ],
     link: "/tools/email",
